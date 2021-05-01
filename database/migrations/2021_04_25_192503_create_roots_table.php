@@ -15,11 +15,6 @@ class CreateRootsTable extends Migration
     {
         Schema::create('roots', function (Blueprint $table) {
             $table->id();
-            $table->string('triconogram_type');
-            $table->string('evolutionary_state');
-            $table->string('coefficient_growth');
-            $table->string('number_hair_extracted');
-            $table->string('las_wast_date');
             $table->string('root');
             $table->timestamps();
         });

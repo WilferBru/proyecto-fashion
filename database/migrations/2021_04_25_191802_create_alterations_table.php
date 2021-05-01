@@ -21,7 +21,6 @@ class CreateAlterationsTable extends Migration
             $table->string('itchiness');
             $table->string('wounds');
             $table->string('soreness');
-            $table->string('zones');
             $table->timestamps();
         });
     }
